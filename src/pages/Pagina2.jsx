@@ -1,4 +1,9 @@
+import { useEffect } from 'react'
+
 export default function Pagina2() {
+  useEffect(() => {
+    document.title = 'Você é Capaz!'
+  }, [])
     return (
       <div style={{ maxWidth: '800px', textAlign: 'center', lineHeight: '1.6' }}>
         <h1>Você é Capaz!</h1>

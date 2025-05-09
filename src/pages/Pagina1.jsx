@@ -1,4 +1,10 @@
+import { useEffect } from 'react'
+
 export default function Pagina1() {
+  useEffect(() => {
+    document.title = 'Nunca Desista!'
+  }, [])
+
     return (
       <div style={{ maxWidth: '800px', textAlign: 'center', lineHeight: '1.6' }}>
         <h1>Nunca Desista!</h1>
